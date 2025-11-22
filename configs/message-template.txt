@@ -1,0 +1,27 @@
+Problem
+
+Subject: Problem: {EVENT.NAME}
+
+Message:
+Problem started at {EVENT.TIME} on {EVENT.DATE}
+Problem name: {EVENT.NAME}
+Host: {HOST.NAME}
+Severity: {EVENT.SEVERITY}
+Operational data: {EVENT.OPDATA}
+Original problem ID: {EVENT.ID}
+{TRIGGER.URL}
+
+------------------------------------------------------
+
+Problem recovery
+
+Subject: Resolved in {EVENT.DURATION}: {EVENT.NAME}
+
+Message:
+{EVENT.RECOVERY.DATE}
+Problem name: {EVENT.NAME}
+Problem duration: {EVENT.DURATION}
+Host: {HOST.NAME}
+Severity: {EVENT.SEVERITY}
+Original problem ID: {EVENT.ID}
+{TRIGGER.URL}
